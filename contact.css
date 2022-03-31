@@ -1,0 +1,91 @@
+.main-header-holder-contact {
+    display: flex;
+    min-height: 10rem;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: burlywood;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    font-size: 2rem;
+    color:chocolate
+  }
+  
+  .main-content-contact {
+      padding-top: 40px;
+      padding-bottom: 2.5rem;
+      min-height: 10rem;
+      background-color:gainsboro;
+      border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+  }
+  
+  .contact-content {
+      padding-left: 3rem;
+      display: flex;
+      flex-direction: row;
+  }
+  
+  .contact-content div {
+      min-width: 33vw;
+  }
+  
+  .contact-content-left div h3{
+      font-size: 2rem;
+  }
+  
+  .my-contact {
+      display: flex;
+      flex-direction: column;
+  }
+  
+  .my-contact li {
+      padding-bottom: 1rem;
+      font-size: 1.8rem;
+  }
+  
+  .contact-content-right h3 {
+      font-size: 2rem;
+      padding-bottom: 1rem;
+  }
+  
+  .input-container {
+    display: flex;
+    width: 33vw;
+    margin-bottom: 15px;
+    border-radius: 15px;
+  }
+  
+  .icon {
+    padding: 10px;
+    background: dodgerblue;
+    color: white;
+    min-width: 50px;
+    text-align: center;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+  }
+  
+  .input-field:focus {
+    border: 2px solid dodgerblue;
+  }
+  
+  /* Set a style for the submit button */
+  .btn {
+    background-color: dodgerblue;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    border-radius: 5px;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }

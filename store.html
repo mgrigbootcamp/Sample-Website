@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        
+        <div class="nav-menu">
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li><a href="store.html">Store</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                
+            </ul>
+        </div>
+        <br>
+    </nav>
+    <br>
+        <br>
+        <div class="store-background">
+        <div class="box">
+            <img src="https://rioters.espivblogs.net/files/2010/06/hoplites_fight_louvre_e735.jpg" alt="greek"height="100px">
+            <button class="add-to-cart">Add To Cart</button>
+            <br>
+            <div class="item-description"><h5>This is an item.  blah blah blah blah blah</h5></div>
+            
+        </div>
+        
+        <br>
+        <div class="box">
+            Item 2
+            <button class="add-to-cart">Add To Cart</button>
+            <div class="custom-model-main">
+                <div class="custom-model-inner">
+                   <div class="close-btn">×</div>
+                   <div class="custom-model-wrap">
+                      <div class="pop-up-content-wrap">
+                         <h2>Have a nice day!</h2>
+                         <p>This is message box popup that revealed on button click.</p>
+                      </div>
+                   </div>
+                </div>
+                <div class="bg-overlay"></div>
+             </div>
+            <div class="item-description"><h5>This is an item.  blah blah blah blah blah</h5>
+            </div>
+            
+        </div>
+        </div>
+        <!-- jQuery -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+    <script>
+    $(".Click-here").on('click', function() {
+      $(".custom-model-main").addClass('model-open');
+    }); 
+    $(".close-btn, .bg-overlay").click(function(){
+      $(".custom-model-main").removeClass('model-open');
+    });
+    </script>
+        
+    
+    
+</body>
+</html>
+
