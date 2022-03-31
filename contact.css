@@ -24,6 +24,7 @@
       padding-left: 3rem;
       display: flex;
       flex-direction: row;
+      background-color: azure;
   }
   
   .contact-content div {
