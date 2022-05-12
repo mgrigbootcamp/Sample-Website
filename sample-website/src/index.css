@@ -32,7 +32,7 @@ h1 {
     padding: 20px;
     text-align: center;
 }
-.container {
+/* .container {
     width: 35vw;
     height: 3rem;
     display: flex; 
@@ -43,10 +43,8 @@ h1 {
     margin: 0 auto; 
     background-color:slategray;
     text-align: center;
-    border:solid 3px red;
-    
-    
-}
+    border:solid 3px red;  
+} */
 
 nav {
     width: 40vw;

@@ -57,9 +57,15 @@ a {
     color: white;
     
     }
-/* .pic-div {
+.pic-div {
     height: 5px;
-} */
+    padding: 100px;
+    margin-left: 300px;
+    height: 50px;
+    position: relative;
+    bottom: 100px;
+   
+}
 .box {
     height: 300px;
     width: 300px;
@@ -172,11 +178,17 @@ a {
     position: relative;
     z-index: 999;
   }
-.pic-div {
+img {
   border: solid 3px white;
-  justify-content: center;
-  /* flex:content;
-  flex-direction: row; */
+  justify-content:center;
+  flex:content;
+  flex-direction: row;
+  width: 800px;
+  height: 200px;
+  position: relative;
+  right: 150px;
+  
+  
 }
 h5 {
   display:flex;
@@ -184,6 +196,12 @@ h5 {
   justify-content:space-between;
   
 }
+.container-fluid {
+  display: inline;
+  justify-content: center;
+}
+
+
 
 
 

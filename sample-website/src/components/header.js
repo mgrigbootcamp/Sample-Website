@@ -24,16 +24,17 @@ export default function Header() {
                 <Link to="/">Home</Link>
                 </li>
                 <li><Link to="/store">Store</Link></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><Link to="/contact">Contact </Link></li>
                 <li><Link to="/about">About</Link></li>
                 
             </ul>
         </div>
     </nav>
-    <Routes>
+    {/* <Routes>
         <Route path="/" element={<Home />} />
         <Route path="about" element={<About />} />
-      </Routes>
+        <Route path="store" element={<Store/>} />
+      </Routes> */}
     </div>
   )
 }
